@@ -8,11 +8,11 @@ namespace ShoppingListApp
 {
     internal class Item
     {
-        public string Name { get; set; }
+        public string itemName { get; set; }
 
         public Item(string name)
         {
-            Name = name;
+            itemName = name;
         }
     }
 }
